@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.clipPathMobile{
+    clip-path: polygon(50% 20%, 100% 0, 100% 100%, 50% 80%, 0 100%, 0 0);
+}
+
+.clipPathDesktop{
+    clip-path: polygon(49% 25%, 100% 0, 100% 100%, 0 100%, 0 0);
+}
